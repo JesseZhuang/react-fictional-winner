@@ -1,8 +1,10 @@
 import './App.css';
+import FunctionalComponent from './component/FunctionalComponent';
 
 function App() {
   return (
     <div className="App">
+      <FunctionalComponent />
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
