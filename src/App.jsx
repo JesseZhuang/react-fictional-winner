@@ -1,10 +1,13 @@
 import './App.css';
 import FunctionalComponent from './component/FunctionalComponent';
+import Heading from './component/Heading';
 
 function App() {
   return (
     <div className="App">
       <FunctionalComponent />
+      <Heading firstName="Bob" age="30" />
+      <Heading firstName="Any name other than Bob" />
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
