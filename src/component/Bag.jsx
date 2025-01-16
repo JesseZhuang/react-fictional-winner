@@ -1,3 +1,4 @@
+// props.children, all props attributes
 function Bag(props) {
     const bag = {
         padding: "20px",
